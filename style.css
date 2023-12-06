@@ -1,0 +1,148 @@
+body 
+{
+    font-family: Arial, sans-serif; /*applies the font style */
+    background-color: black; /*applies the background */
+    margin: 0; 
+    padding: 0;
+}
+
+header 
+{
+    background-color: blanchedalmond; /*applies the colour to the header portion only */
+    color: black; /*applies the colour to the font */
+    padding: 10px; /*applies the space from the inside */
+    text-align: center; /*aligns the text to the center */
+}
+
+h1 
+{
+    font-size: 32px; /*sets the font size to 32px*/
+}
+
+.container 
+{
+    max-width: 800px; 
+    margin: 30px auto;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px black(0, 0, 0, 0.2);
+}
+
+/* applies the css to the images of floppy disk on index page  */
+.disk-image 
+{
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+p 
+{
+    text-align: center; /*aligns the etxt to center */
+}
+
+/* Reset some default styles for cross-browser consistency */
+* 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header and navigation bar */
+header 
+{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul 
+{
+    list-style: none;
+    text-align: center;
+    color: white;
+}
+
+nav li 
+{
+    display: inline; /*helps align the unordered list horizontally*/
+    margin: 0 15px;
+    color: white;
+}
+
+nav a 
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+/* Style the hero section for the hover effect*/
+.hero 
+{
+    background-size: cover;
+    text-align: center;
+    padding: 100px;
+    color: white;
+}
+
+/* Style the division for hover  */
+.hover-effect 
+{
+    width: 500px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    line-height: 50px;
+    cursor: pointer;
+    margin-left: 400px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Add a hover effect */
+.hover-effect:hover 
+{
+    background-color: blanchedalmond;
+    color: black;
+    transform: scale(1.1);
+}
+
+
+/* Style the product showcase section */
+.effects
+{
+    padding: 50px;
+}
+.product 
+{
+    text-align: center;
+    margin: 20px;
+    background-color: black;
+}
+
+.product img 
+{
+    max-width: 100%;
+}
+
+/* Style the about section */
+.about 
+{
+    background-color: white;
+    padding: 50px;
+    color: black;
+}
+
+/* Style the contact section */
+.contact 
+{
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    padding: 50px;
+}
+
+
